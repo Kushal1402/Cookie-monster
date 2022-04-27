@@ -1,0 +1,52 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+/* Rules for sizing the icon. */
+/* .material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; } */
+
+/* Rules for using icons as black on a light background. */
+/* .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); } */
+
+/* Rules for using icons as white on a dark background. */
+/* .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }x */
+
+body {
+	background: url('../images/20220310_112726.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: top;
+	background-attachment: scroll;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: 100%;
+	-o-background-size: cover;
+	background-size: 100%;
+}
+#container{
+	background: black;
+	padding: 10px;
+	width: 550px;
+	color: white;
+	height: 100%;
+}
+h1{
+	font-size: 80px; 
+}
+h2{
+	background: #75c1f6;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+a{
+	color: #75c1f6;
+	text-decoration: none;
+}
